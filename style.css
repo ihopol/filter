@@ -1,0 +1,42 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.wrapper {
+  padding: 50px;
+}
+
+.table {
+  border: 1px solid #eee;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.table th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+}
+
+.table td {
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  text-align: left;
+}
+
+.table tbody tr:nth-child(odd) {
+  background: #fff;
+}
+
+.table tbody tr:nth-child(even) {
+  background: #f7f7f7;
+}
